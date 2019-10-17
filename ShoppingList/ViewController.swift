@@ -30,19 +30,22 @@ class ViewController: UIViewController {
         stepper4.maximumValue = 10
     }
     
+    //Conect Label text of stepper control
     @IBOutlet weak var ValueLabel1: UITextField!
     @IBOutlet weak var ValueLabel2: UITextField!
     @IBOutlet weak var ValueLabel3: UITextField!
     @IBOutlet weak var ValueLabel4: UITextField!
     @IBOutlet weak var ValueLabel5: UITextField!
     
-
+    //Conect Stepper using Outlet
     @IBOutlet weak var stepper0: UIStepper!
     @IBOutlet weak var stepper1: UIStepper!
     @IBOutlet weak var stepper2: UIStepper!
     @IBOutlet weak var stepper3: UIStepper!
     @IBOutlet weak var stepper4: UIStepper!
     
+    
+    //Conect Stepper using Action function
     @IBAction func stepperValuechanged(_ sender: UIStepper) {
         ValueLabel1.text = Int(sender.value).description
     }
@@ -70,7 +73,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ListFour: UITextField!
     @IBOutlet weak var ListFive: UITextField!
     
-    
+    //Conect Cancel button using Action function
     @IBAction func Cancel(_ sender: UIButton) {
         
         ListName.text = ""
