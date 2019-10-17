@@ -63,6 +63,28 @@ class ViewController: UIViewController {
         ValueLabel5.text = Int(sender.value).description
     }
     
+    @IBOutlet weak var ListName: UITextField!
+    @IBOutlet weak var ListOne: UITextField!
+    @IBOutlet weak var ListTwo: UITextField!
+    @IBOutlet weak var ListThree: UITextField!
+    @IBOutlet weak var ListFour: UITextField!
+    @IBOutlet weak var ListFive: UITextField!
+    
+    
+    @IBAction func Cancel(_ sender: UIButton) {
+        
+        ListName.text = ""
+        ListOne.text = ""
+        ListTwo.text = ""
+        ListThree.text = ""
+        ListFour.text = ""
+        ListFive.text = ""
+        ValueLabel1.text = ""
+        ValueLabel2.text = ""
+        ValueLabel3.text = ""
+        ValueLabel4.text = ""
+        ValueLabel5.text = ""
+    }
     
 }
 
