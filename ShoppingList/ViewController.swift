@@ -4,7 +4,9 @@
 //
 //  Created by Student on 2019-10-16.
 //  Copyright © 2019 CentennialCollege. All rights reserved.
-//
+// Name : Bhavya Shah
+// Student id: 301076681
+// Date: 16th October'2019
 
 import UIKit
 
